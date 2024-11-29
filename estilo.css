@@ -100,11 +100,13 @@ color:#39A9CB;
   }
 
   .card {
-    height: 280px; 
+    /* height: 280px;  */
     margin-bottom: 40px;
     backdrop-filter: blur(50px);
     background-color: rgba(255, 255, 255, 0.5);
+    
   }
+
 
 /* imagenes */
 .redes {
@@ -155,7 +157,17 @@ justify-content: center;
 }
 }
 
+@media (max-width: 1280px) { 
+  .card {
+       font-size: large;
+  }
+ 
 
+ 
+.card {
+  height: 300px;
+  
+}     
 
 /* :hover */
 .redes:hover {
