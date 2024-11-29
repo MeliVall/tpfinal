@@ -25,9 +25,7 @@ color:#39A9CB;
 .textcolor {
   color: #39A9CB;
 }
-/* .textcolor2 {
-  color: #2940D3;
-} */
+
 
 /* Tipografias */
 .poppins-regular {
@@ -96,7 +94,7 @@ color:#39A9CB;
     font-family: "Abril Fatface", serif;
     font-weight: 400;
     font-style: normal;
-    color: #ff651a
+    color: #ff651a;
   }
 
   .card {
@@ -125,7 +123,7 @@ section img {
   opacity: 0.8;
   transition: 0.5s ease;
   border-radius: 10%;
-   filter: grayscale(100%)
+  filter: grayscale(100%);
 }
 
 .logoesc {
@@ -133,7 +131,8 @@ section img {
 }
 
 .card {
-  height: 300px;}
+  height: 300px;
+}
   
 @media (max-width: 1280px) { 
   .border-end {
@@ -164,11 +163,7 @@ justify-content: center;
   .card {
        font-size: large;
   }
- 
-
- 
-
-}     
+ }     
 
 /* :hover */
 .redes:hover {
